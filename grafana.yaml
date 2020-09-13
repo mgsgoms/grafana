@@ -2,7 +2,7 @@ rbac:
   create: true
   pspEnabled: true
   pspUseAppArmor: false
-  namespaced: true
+  namespaced: false
   extraRoleRules: []
   # - apiGroups: []
   #   resources: []
