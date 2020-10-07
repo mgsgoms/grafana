@@ -19,7 +19,7 @@ serviceAccount:
 
 replicas: 1
 
-## See `kubectl explain poddisruptionbudget.spec` for more
+## See `kubectl explain poddisruptionbudget.spec` for more information
 ## ref: https://kubernetes.io/docs/tasks/run-application/configure-pdb/
 podDisruptionBudget: {}
 #  minAvailable: 1
